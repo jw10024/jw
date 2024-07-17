@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* 가로 스크롤 방지 */
+}
+
+/* 인트로  */
+
+/* 사이드 메뉴 초기 설정 */
+.sidemenu a {
+    color: #333;
+    /* 기본 글자색 */
+    font-size: 1.3rem;
+    /* 기본 글자 크기 */
+    transition: font-size 0.3s ease, color 1s ease;
+    /* 글자 크기와 색상 변화 시 자연스러운 전환 */
+}
+
+.sidemenu a.active {
+    color: #ff5722;
+    /* 활성화된 항목의 글자색 */
+    font-size: 2.1rem;
+    /* 활성화된 항목의 글자 크기 */
+}
+
+.sidemenu .sidemenu2.active {
+    color: #ff5722;
+    /* 활성화된 항목의 글자색 */
+    font-size: 2.1rem;
+    /* 활성화된 항목의 글자 크기 */
+}
+
+.sidemenu .sidemenu3.active {
+    color: #227AFF;
+    /* 활성화된 항목의 글자색 */
+    font-size: 2.5rem;
+    /* 활성화된 항목의 글자 크기 */
+}
+
+.sidemenu .sidemenu4.active {
+    color: #FFA800;
+    /* 활성화된 항목의 글자색 */
+    font-size: 2.0rem;
+    /* 활성화된 항목의 글자 크기 */
+}
+
+.sidemenu .sidemenu5.active {
+    color: palevioletred;
+    /* 활성화된 항목의 글자색 */
+    font-size: 2.1rem;
+    /* 활성화된 항목의 글자 크기 */
+}
+
+.sidemenu {
+    padding-top: 250px;
+    width: 8em;
+    height: 60rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -250px;
+    /* 초기에 왼쪽으로 숨김 */
+    z-index: 1000;
+    transition: left 0.5s ease;
+    /* 왼쪽 위치 변경에 대한 CSS 애니메이션 */
+
+}
+
+/* 사이드 메뉴 리스트 스타일링 */
+.sidemenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidemenu ul li {
+    margin-bottom: 30px;
+}
+
+.sidemenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    display: block;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.sidemenu ul li a:hover {}
+
+/* 슬라이드2번 */
+.area {
+    position: relative;
+}
+
+.pagetwoall {
+    position: absolute;
+    top: 12rem;
+}
+
+.pagetwo {
+    display: flex;
+    margin-left: 15rem;
+}
+
+.pagetwoimg {
+    position: relative;
+}
+
+.pagetwoimg2 {
+    position: absolute;
+    top: 10em;
+    left: 50rem;
+}
+
+.pagetwotext {
+    margin-left: 15rem;
+}
+
+.pagetwotext .pagetwotext1 {
+
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FF5C00;
+    text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+}
+
+.pagetwotext .pagetwotext2 {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pagetwotext .pagetwotext3 {
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.7rem;
+    padding-top: 3rem;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton1 {
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #FF5C00;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton1:hover {
+    background-color: #FF5C00;
+
+}
+
+.pagetwoall .pagetwotext .pagetwobutton1:hover a {
+    color: #fff;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton2:hover {
+    background-color: #FF5C00;
+
+}
+
+.pagetwoall .pagetwotext .pagetwobutton2:hover a {
+    color: #fff;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton1 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FF5C00;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton2 {
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid #FF5C00;
+    margin-right: 2rem;
+    border-radius: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagetwoall .pagetwotext .pagetwobutton2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FF5C00;
+    transition: 0.5s;
+}
+
+/* 슬라이드3 */
+.area1 {
+    position: relative;
+}
+
+.pagethreeall {
+    position: absolute;
+    top: 14rem;
+}
+
+.pagethreeall {
+    display: flex;
+}
+
+.pagethreeall .pagethreetext {
+    padding-top: 4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton1 {
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #7baffd;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton1:hover {
+    background-color: #7baffd;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton1:hover a {
+    color: #fff;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton2:hover {
+    background-color: #7baffd;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton2:hover a {
+    color: #fff;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton1 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #7baffd;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton2 {
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid #7baffd;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagethreeall .pagethreetext .pagethreebutton .pagethreebutton2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #7baffd;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.pagethreeall .pagethreetext .pagethreetext1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #7baffd;
+    font-family: "Noto Sans KR", sans-serif;
+    text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+}
+
+.pagethreeall .pagethreetext .pagethreetext2 {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.pagethreeall .pagethreetext .pagethreetext3 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pagethreeall .pagethree img {
+    width: 50rem;
+    height: 28rem;
+}
+
+/* 슬라이드 4 */
+.area2 {
+    position: relative;
+}
+
+.pagefourall {
+    position: absolute;
+    top: 15rem;
+    display: flex;
+    margin-left: 18rem;
+}
+
+.pagefourall .pagefour {
+    margin-right: 13rem;
+}
+
+.pagefourall .pagefour img {
+    width: 50rem;
+    height: 28rem;
+    border-radius: 30px;
+}
+
+.pagefourall .pagefourtext .pagefourtext1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #FFA800;
+    font-family: "Noto Sans KR", sans-serif;
+    text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+
+}
+
+.pagefourall .pagefourtext .pagefourtext2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+}
+
+.pagefourall .pagefourtext .pagefourtext3 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.pagefourall .pagefourtext .pagefourbutton {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton1 {
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #FFA800;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton1:hover {
+    background-color: #FFA800;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton1:hover a {
+    color: #fff;
+}
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton2:hover {
+    background-color: #FFA800;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton2:hover a {
+    color: #fff;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton1 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFA800;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton2 {
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid #FFA800;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    z-index: 9999;
+    transition: 0.5s;
+}
+
+.pagefourall .pagefourtext .pagefourbutton .pagefourbutton2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFA800;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+/* 슬라이드5 */
+.area3 {
+    padding-top: 4rem;
+}
+
+.pagefivemargin {
+    margin-left: 18rem;
+}
+
+.pagefiveall {
+    display: flex;
+
+}
+
+.pagefivetwo {
+    display: flex;
+}
+
+.pagefivetext {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0), -1px -1px #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,2766 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -8rem;
+        left: 8rem;
+        width: 50rem;
+        height: 25rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -1rem;
+        left: 50rem;
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 20rem;
+        left: 8rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -10rem;
+        left: 23rem;
+        width: 50rem;
+        height: 25.5rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 15rem;
+        left: 3rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -11rem;
+        left: 6rem;
+        width: 50rem;
+        height: 25.5rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 18rem;
+        left: 6rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+
+    /* 이미지 */
+
+    .pagefiveall {
+        display: block;
+        position: relative;
+
+    }
+
+    .works_container2 {
+        position: absolute;
+        top: -0.6rem;
+        left: 20.5rem;
+    }
+
+    .works_container3 {
+        position: absolute;
+        top: -0.6rem;
+        left: 41rem;
+    }
+
+    .pagefivetwo {
+        position: relative;
+    }
+
+    .works_container5 {
+        position: absolute;
+        top: -20.6rem;
+        left: 20.5rem;
+    }
+
+    .works_container6 {
+        position: absolute;
+        top: -20.6rem;
+        left: 41rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -5rem;
+        left: 8rem;
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -2rem;
+        left: 38rem;
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 20rem;
+        left: 8rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -10rem;
+        left: 18rem;
+        width: 50rem;
+        height: 25.5rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 13rem;
+        left: -2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -11rem;
+        left: 0rem;
+        width: 50rem;
+        height: 25.5rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 18rem;
+        left: -2;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* 이미지 */
+    .area3 {
+        position: relative;
+
+    }
+    .pagefivemargin{
+        position: absolute;
+        top: 8rem;
+        left: -2rem;
+    }
+    .pagefiveall {
+        display: block;
+        position: relative;
+
+    }
+    .works_container2 {
+        position: absolute;
+        top: -12.7rem;
+        left: 14rem;
+    }
+
+    .works_container3 {
+        position: absolute;
+        top: -25.5rem;
+        left: 28rem;
+    }
+    .works_container4 {
+        position: absolute;
+        top: -25.5rem;
+        left: 28rem;
+    }
+
+    .pagefivetwo {
+        position: relative;
+    }
+
+    .works_container5 {
+        position: absolute;
+        top: -38.9rem;
+        left: 14rem;
+    }
+
+    .works_container6 {
+        position: absolute;
+        top: -38.9rem;
+        left: -13.7rem;
+    }
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -8rem;
+        left: 2rem;
+        width: 40rem;
+        height: 20rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -5rem;
+        left: 35rem;
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 17rem;
+        left: 2rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -10rem;
+        left: 17rem;
+        width: 40rem;
+        height: 20.5rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 12rem;
+        left: -2.8rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -11rem;
+        left: -1rem;
+        width: 40rem;
+        height: 20.5rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 15rem;
+        left: -0.5rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+
+    /* 이미지 */
+    .works_container1 {
+        position: relative;
+        z-index: 1;
+        width: 200px;
+        height: 195px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background: url('../image/소파\ 상세페이지\ 1.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .works_container1::before,
+    .works_container1::after {
+        content: '';
+        position: absolute;
+
+        left: 0;
+        z-index: -1;
+        width: 200px;
+        height: 195px;
+        background-color: #fff;
+        opacity: 0.7;
+        transition: transform 0.5s 0.2s;
+    }
+
+    .works_container1::before {
+        top: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+        transform: translateY(-100%);
+    }
+
+    .works_container1::after {
+        bottom: -1px;
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        transform: translateY(100%);
+    }
+
+    .works_container1:hover::before,
+    .works_container1:hover::after {
+        transform: translateY(0);
+    }
+
+    .works_main {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .works_front {
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .works_container1:hover .works_main {
+        opacity: 1;
+        transition-delay: 0.7s;
+    }
+    /* 이미지2 */
+.works_container2 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/잠옷상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container2::before,
+  .works_container2::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  
+  }
+  
+  .works_container2::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container2::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container2:hover::before,
+  .works_container2:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container2:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지3 */
+  .works_container3 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/딸기\ 메인페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container3::before,
+  .works_container3::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container3::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container3::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container3:hover::before,
+  .works_container3:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container3:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지4 */
+  .works_container4 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/화장품\ 모델\ sns\ 배너\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container4::before,
+  .works_container4::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container4::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container4::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container4:hover::before,
+  .works_container4:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a{
+    font-size: 1.5rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    color: #758694;
+    text-decoration: none;
+  }
+  
+  .works_container4:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지5 */
+  .works_container5 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/복숭아\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container5::before,
+  .works_container5::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container5::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container5::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container5:hover::before,
+  .works_container5:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container5:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지6 */
+  .works_container6 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/침구\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container6::before,
+  .works_container6::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container6::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container6::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container6:hover::before,
+  .works_container6:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container6:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+}
+
+/* @media screen and (max-width: 996px) {
+    
+    .pagetwoimg1 {
+        position: absolute;
+        top: -5rem;
+        left: 3rem;
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -2rem;
+        left: 32rem;
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 20rem;
+        left: 3rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+ 
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -10rem;
+        left: 15rem;
+        width: 40rem;
+        height: 20rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 13rem;
+        left: -5rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -11rem;
+        left: -1rem;
+        width: 40rem;
+        height: 20rem;
+    }
+    .pagefourall .pagefourtext{
+        position: absolute;
+        top: 14rem;
+        left: -1rem;
+    }
+    .pagefourall .pagefourtext .pagefourtext1{
+        font-size: 2.5rem;
+        
+    }
+    .pagefourall .pagefourtext .pagefourtext2{
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+    .pagefourall .pagefourtext .pagefourtext3{
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+    .pagefourall .pagefourtext .pagefourbutton{
+        
+        margin-top: 1rem;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    .sidemenu {
+        display: none;
+    }
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -5rem;
+        left: -8rem;
+        width: 35rem;
+        height: 20rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -9rem;
+        left: 18rem;
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 19rem;
+        left: -8rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -10rem;
+        left: 8rem;
+        width: 34rem;
+        height: 20rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 13rem;
+        left: -12rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -11rem;
+        left: -12.5rem;
+        width: 38rem;
+        height: 20rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 14rem;
+        left: -12rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+    /* 이미지 */
+    .area3 {
+        position: relative;
+
+    }
+    .pagefivemargin{
+        position: absolute;
+        top: 8rem;
+        left: -14rem;
+    }
+    .pagefiveall {
+        display: block;
+        position: relative;
+
+    }
+    .works_container2 {
+        position: absolute;
+        top: -12.7rem;
+        left: 14rem;
+    }
+
+    .works_container3 {
+        position: absolute;
+        top: -25.5rem;
+        left: 28rem;
+    }
+    .works_container4 {
+        position: absolute;
+        top: -25.5rem;
+        left: 28rem;
+    }
+
+    .pagefivetwo {
+        position: relative;
+    }
+
+    .works_container5 {
+        position: absolute;
+        top: -38.9rem;
+        left: 14rem;
+    }
+
+    .works_container6 {
+        position: absolute;
+        top: -38.9rem;
+        left: -13.7rem;
+    }
+    /* 이미지 */
+    .works_container1 {
+        position: relative;
+        z-index: 1;
+        width: 200px;
+        height: 195px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background: url('../image/소파\ 상세페이지\ 1.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .works_container1::before,
+    .works_container1::after {
+        content: '';
+        position: absolute;
+
+        left: 0;
+        z-index: -1;
+        width: 200px;
+        height: 195px;
+        background-color: #fff;
+        opacity: 0.7;
+        transition: transform 0.5s 0.2s;
+    }
+
+    .works_container1::before {
+        top: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+        transform: translateY(-100%);
+    }
+
+    .works_container1::after {
+        bottom: -1px;
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        transform: translateY(100%);
+    }
+
+    .works_container1:hover::before,
+    .works_container1:hover::after {
+        transform: translateY(0);
+    }
+
+    .works_main {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .works_front {
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .works_container1:hover .works_main {
+        opacity: 1;
+        transition-delay: 0.7s;
+    }
+    /* 이미지2 */
+.works_container2 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/잠옷상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container2::before,
+  .works_container2::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  
+  }
+  
+  .works_container2::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container2::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container2:hover::before,
+  .works_container2:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container2:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지3 */
+  .works_container3 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/딸기\ 메인페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container3::before,
+  .works_container3::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container3::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container3::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container3:hover::before,
+  .works_container3:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container3:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지4 */
+  .works_container4 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/화장품\ 모델\ sns\ 배너\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container4::before,
+  .works_container4::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container4::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container4::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container4:hover::before,
+  .works_container4:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a{
+    font-size: 1.5rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    color: #758694;
+    text-decoration: none;
+  }
+  
+  .works_container4:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지5 */
+  .works_container5 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/복숭아\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container5::before,
+  .works_container5::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container5::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container5::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container5:hover::before,
+  .works_container5:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container5:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지6 */
+  .works_container6 {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/침구\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container6::before,
+  .works_container6::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container6::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container6::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container6:hover::before,
+  .works_container6:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container6:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+}
+
+@media screen and (max-width:576px) {
+    .sidemenu {
+        display: none;
+    }
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -6rem;
+        left: -12rem;
+        width: 30rem;
+        height: 18rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -4rem;
+        left: 12rem;
+        width: 8rem;
+        height: 17rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 18rem;
+        left: -10rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -8rem;
+        left: 2rem;
+        width: 32rem;
+        height: 18rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 12rem;
+        left: -16rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -10rem;
+        left: -16rem;
+        width: 32rem;
+        height: 18rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 13rem;
+        left: -14rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .square {
+        font-size: 50px;
+        font-weight: 900;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        cursor: default;
+        transition: all 0.3s;
+        color: #fff;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -6rem;
+        left: -12.5rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -2rem;
+        left: 2rem;
+        width: 5rem;
+        height: 11rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 15rem;
+        left: -11rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -5rem;
+        left: 2.5rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 9rem;
+        left: -17rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -7rem;
+        left: -16rem;
+        width: 23rem;
+        height: 13.5rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 12rem;
+        left: -15rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+    /* 이미지 */
+    .area3 {
+        position: relative;
+
+    }
+    .pagefivemargin{
+        position: absolute;
+        top: 5rem;
+        left: -11.5rem;
+    }
+    .pagefiveall {
+        display: block;
+        position: relative;
+
+    }
+    .works_container1{
+        position: absolute;
+        top: 1rem;
+        left: -4rem;
+    }
+    .works_container2 {
+        position: absolute;
+        top: -9.3rem;
+        left: 7rem;
+    }
+
+    .works_container3 {
+        position: absolute;
+        top: -8rem;
+        left: -4rem;
+    }
+    .works_container4 {
+        position: absolute;
+        top: -18.3rem;
+        left: 7rem;
+    }
+
+    .pagefivetwo {
+        position: relative;
+    }
+
+    .works_container5 {
+        position: absolute;
+        top: -17.5rem;
+        left: -4rem;
+    }
+
+    .works_container6 {
+        position: absolute;
+        top: -17.5rem;
+        left: -4.3rem;
+    }
+    /* 이미지 */
+    .works_container1 {
+        position: relative;
+        z-index: 1;
+        width: 160px;
+        height: 155px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background: url('../image/소파\ 상세페이지\ 1.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .works_container1::before,
+    .works_container1::after {
+        content: '';
+        position: absolute;
+
+        left: 0;
+        z-index: -1;
+        width: 160px;
+        height: 155px;
+        background-color: #fff;
+        opacity: 0.7;
+        transition: transform 0.5s 0.2s;
+    }
+
+    .works_container1::before {
+        top: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+        transform: translateY(-100%);
+    }
+
+    .works_container1::after {
+        bottom: -1px;
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        transform: translateY(100%);
+    }
+
+    .works_container1:hover::before,
+    .works_container1:hover::after {
+        transform: translateY(0);
+    }
+
+    .works_main {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .works_front {
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .works_container1:hover .works_main {
+        opacity: 1;
+        transition-delay: 0.7s;
+    }
+    /* 이미지2 */
+.works_container2 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/잠옷상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container2::before,
+  .works_container2::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  
+  }
+  
+  .works_container2::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container2::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container2:hover::before,
+  .works_container2:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container2:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지3 */
+  .works_container3 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/딸기\ 메인페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container3::before,
+  .works_container3::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container3::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container3::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container3:hover::before,
+  .works_container3:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container3:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지4 */
+  .works_container4 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/화장품\ 모델\ sns\ 배너\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container4::before,
+  .works_container4::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container4::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container4::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container4:hover::before,
+  .works_container4:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a{
+    font-size: 1.5rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    color: #758694;
+    text-decoration: none;
+  }
+  
+  .works_container4:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지5 */
+  .works_container5 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/복숭아\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container5::before,
+  .works_container5::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container5::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container5::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container5:hover::before,
+  .works_container5:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container5:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지6 */
+  .works_container6 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/침구\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container6::before,
+  .works_container6::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container6::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container6::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container6:hover::before,
+  .works_container6:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container6:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+}
+
+/* @media screen and (max-width:400px){
+    .square {
+        font-size: 50px;
+        font-weight: 900;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        cursor: default;
+        transition: all 0.3s;
+        color: #fff;
+      }
+    .sidemenu{
+        display: none;
+    }
+   
+    .pagetwoimg1 {
+        position: absolute;
+        top: -6rem;
+        left: -13.5rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -2rem;
+        left: 1rem;
+        width: 5rem;
+        height: 11rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 15rem;
+        left: -12rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+   
+     .pagethreeall .pagethree img {
+        position: absolute;
+        top: -5rem;
+        left: 1.5rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 9rem;
+        left: -17rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+  
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -7rem;
+        left: -17rem;
+        width: 23rem;
+        height: 13.5rem;
+    }
+    .pagefourall .pagefourtext{
+        position: absolute;
+        top: 12rem;
+        left: -16rem;
+    }
+    .pagefourall .pagefourtext .pagefourtext1{
+        font-size: 2.5rem;
+        
+    }
+    .pagefourall .pagefourtext .pagefourtext2{
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+    .pagefourall .pagefourtext .pagefourtext3{
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+    .pagefourall .pagefourtext .pagefourbutton{
+        
+        margin-top: 1rem;
+    }
+} */
+@media screen and (max-width:375px) {
+    .square {
+        font-size: 50px;
+        font-weight: 900;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        cursor: default;
+        transition: all 0.3s;
+        color: #fff;
+    }
+
+    .sidemenu {
+        display: none;
+    }
+
+    /* 직방 */
+    .pagetwoimg1 {
+        position: absolute;
+        top: -6rem;
+        left: -13rem;
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .pagetwoimg2 {
+        position: absolute;
+        top: -2rem;
+        left: 1rem;
+        width: 5rem;
+        height: 11rem;
+    }
+
+    .pagetwotext {
+        position: absolute;
+        top: 15rem;
+        left: -12rem;
+    }
+
+    .pagetwotext .pagetwotext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagetwotext .pagetwotext2 {
+        padding-top: 1rem;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 2rem;
+    }
+
+    .pagetwotext .pagetwotext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagetwoall .pagetwotext .pagetwobutton {
+        margin-top: 1.5rem;
+    }
+
+    /* 이디아 */
+    .pagethreeall .pagethree img {
+        position: absolute;
+        top: -5rem;
+        left: 0.8rem;
+        width: 22rem;
+        height: 13rem;
+    }
+
+    .pagethreetext {
+        position: absolute;
+        top: 9rem;
+        left: -17rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagethreeall .pagethreetext .pagethreetext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /* 네네치킨 */
+    .pagefourall .pagefour img {
+        position: absolute;
+        top: -7rem;
+        left: -17.7rem;
+        width: 23rem;
+        height: 13.5rem;
+    }
+
+    .pagefourall .pagefourtext {
+        position: absolute;
+        top: 12rem;
+        left: -16rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext1 {
+        font-size: 2.5rem;
+
+    }
+
+    .pagefourall .pagefourtext .pagefourtext2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourtext3 {
+        padding-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .pagefourall .pagefourtext .pagefourbutton {
+
+        margin-top: 1rem;
+    }
+    /* 이미지 */
+    .area3 {
+        position: relative;
+
+    }
+    .pagefivemargin{
+        position: absolute;
+        top: 5rem;
+        left: -13.5rem;
+    }
+    .pagefiveall {
+        display: block;
+        position: relative;
+
+    }
+    .works_container1{
+        position: absolute;
+        top: 1rem;
+        left: -4rem;
+    }
+    .works_container2 {
+        position: absolute;
+        top: -9.3rem;
+        left: 7rem;
+    }
+
+    .works_container3 {
+        position: absolute;
+        top: -8rem;
+        left: -4rem;
+    }
+    .works_container4 {
+        position: absolute;
+        top: -18.3rem;
+        left: 7rem;
+    }
+
+    .pagefivetwo {
+        position: relative;
+    }
+
+    .works_container5 {
+        position: absolute;
+        top: -17.5rem;
+        left: -4rem;
+    }
+
+    .works_container6 {
+        position: absolute;
+        top: -17.5rem;
+        left: -4.3rem;
+    }
+    /* 이미지 */
+    .works_container1 {
+        position: relative;
+        z-index: 1;
+        width: 160px;
+        height: 155px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background: url('../image/소파\ 상세페이지\ 1.png');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .works_container1::before,
+    .works_container1::after {
+        content: '';
+        position: absolute;
+
+        left: 0;
+        z-index: -1;
+        width: 160px;
+        height: 155px;
+        background-color: #fff;
+        opacity: 0.7;
+        transition: transform 0.5s 0.2s;
+    }
+
+    .works_container1::before {
+        top: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+        transform: translateY(-100%);
+    }
+
+    .works_container1::after {
+        bottom: -1px;
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        transform: translateY(100%);
+    }
+
+    .works_container1:hover::before,
+    .works_container1:hover::after {
+        transform: translateY(0);
+    }
+
+    .works_main {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    .works_front {
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .works_container1:hover .works_main {
+        opacity: 1;
+        transition-delay: 0.7s;
+    }
+    /* 이미지2 */
+.works_container2 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/잠옷상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container2::before,
+  .works_container2::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  
+  }
+  
+  .works_container2::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container2::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container2:hover::before,
+  .works_container2:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container2:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지3 */
+  .works_container3 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/딸기\ 메인페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container3::before,
+  .works_container3::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container3::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container3::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container3:hover::before,
+  .works_container3:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container3:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지4 */
+  .works_container4 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/화장품\ 모델\ sns\ 배너\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container4::before,
+  .works_container4::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 315px;
+    height: 310px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container4::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container4::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container4:hover::before,
+  .works_container4:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front a{
+    font-size: 1.5rem;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    color: #758694;
+    text-decoration: none;
+  }
+  
+  .works_container4:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지5 */
+  .works_container5 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/복숭아\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container5::before,
+  .works_container5::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container5::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container5::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container5:hover::before,
+  .works_container5:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container5:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+  
+  /* 이미지6 */
+  .works_container6 {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: url('../image/침구\ 상세페이지\ 1.png');
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .works_container6::before,
+  .works_container6::after {
+    content: '';
+    position: absolute;
+  
+    left: 0;
+    z-index: -1;
+    width: 160px;
+    height: 155px;
+    background-color: #fff;
+    opacity: 0.7;
+    transition: transform 0.5s 0.2s;
+  }
+  
+  .works_container6::before {
+    top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    transform: translateY(-100%);
+  }
+  
+  .works_container6::after {
+    bottom: -1px;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(100%);
+  }
+  
+  .works_container6:hover::before,
+  .works_container6:hover::after {
+    transform: translateY(0);
+  }
+  
+  .works_main {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .works_front {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .works_container6:hover .works_main {
+    opacity: 1;
+    transition-delay: 0.7s;
+  }
+}
